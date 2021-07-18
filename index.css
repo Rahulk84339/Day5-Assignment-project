@@ -4,12 +4,19 @@
     padding: 0px;
 }
 
+.html{
+    scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
+    scroll-behavior: smooth;
+    width: 10px;
     scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #9B3D3D;
+    scroll-behavior: smooth;
 }
 
 /* css for header  */
@@ -20,6 +27,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
+    transition: .5s;
 }
 
 .container {
@@ -433,10 +441,10 @@ li {
     cursor: pointer;
 }
 
-.social_icon:hover {
+/* .social_icon:hover {
     height: 50px;
     width: 50px;
-}
+} */
 
 .si_1 {
     background-image: url("images/facebook.png");
@@ -453,3 +461,4 @@ li {
 .si_4 {
     background-image: url("images/insta.png");
 }
+

@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9B3D3D;
+}
+
+/* css for header  */
+
+.header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+}
+
+.header_container {
+    justify-content: space-between;
+}
+
+.logo {
+    height: 90px;
+    width: 15%;
+    font-size: 40px;
+    font-family: segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+.nav {
+    height: 90px;
+    width: 35%;
+    display: flex;
+}
+
+.nav-item {
+    width: 20%;
+    height: 90px;
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: #9B3D3D;
+}
+
+.banner {
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+}
+
+.overlay {
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text {
+    height: 350px;
+    width: 50%;
+    background-color: rgba(155, 61, 61, 0.5);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.banner_title {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.banner_desc {
+    margin-bottom: 30px;
+}
+
+.padd {
+    padding: 50px;
+}
+
+.banner_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.banner_btn:hover {
+    background-color: white;
+    color: #9B3D3D;
+}
+
+/* css for services  */
+
+.services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+}
+
+.services .underline {
+    border-bottom: 3px solid #9B3D3D;
+}
+
+.services_container {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    height: 370px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.service_img {
+    width: 40%;
+    height: 370px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.service_details {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.service_padd {
+    padding: 20px;
+}
+
+.service_btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: #9B3D3D;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.service_btn:hover {
+    color: black;
+}
+
+.service_title {
+    margin-bottom: 15px;
+}
+
+.service_desc {
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css for about */
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: segoe UI;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about_container {
+    margin-top: 30px;
+    line-height: 25px;
+    display: inline;
+}
+
+.start_text {
+    font-size: 40px;
+    color: gray;
+    font-weight: bold;
+}
+
+.highlight {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9B3D3D;
+}
+
+.highlight_container {
+    justify-content: space-between;
+}
+
+.high_ele {
+    width: 22%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    text-align: center;
+    color: white;
+}
+
+.high_title {
+    font-size: 60px;
+}
+
+.high_desc {
+    font-size: 25px;
+}
+
+.qoute {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: segoe UI;
+}
+
+.quote_container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.qoute_title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.qoute_btn {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #9B3D3D;
+    font-family: segoe UI;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.qoute_btn:hover {
+    background-color: white;
+    color: #9B3D3D;
+}
+
+.portfolio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 220, 220, 1);
+    font-family: segoe UI;
+}
+
+.portfolio_container {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project {
+    width: 25%;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+
+.project_1 {
+    background-image: url("https://images.pexels.com/photos/6348047/pexels-photo-6348047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_2 {
+    background-image: url("https://images.pexels.com/photos/5205097/pexels-photo-5205097.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_3 {
+    background-image: url("https://images.pexels.com/photos/315788/pexels-photo-315788.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_4 {
+    background-image: url("https://guidetour.in/wp-content/uploads/2018/06/5-highway-dhabas-in-India.jpg");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5 {
+    background-image: url("https://images.pexels.com/photos/3209035/pexels-photo-3209035.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_6 {
+    background-image: url("https://www.khaskhabar.com/s3-storage/khaskhabar/khaskhabarimages/img500/24-hours-running-library-in-solan-himachal-24-1503316926-248661-khaskhabar.jpg");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_7 {
+    background-image: url("https://images.pexels.com/photos/1089306/pexels-photo-1089306.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+.project_8 {
+    background-image: url("https://images.pexels.com/photos/675960/mic-music-sound-singer-675960.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title {
+    color: white;
+    width: 100%;
+    height: 200px;
+    text-indent: 30px;
+    line-height: 200px;
+    background-color: rgba(155, 61, 61, 0.5);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.project_title:hover {
+    height: 400px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child {
+    height: 200px;
+    width: 25%;
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_child_1 {
+    color: white;
+    font-size: 30px;
+    align-items: center;
+}
+
+ul {
+    margin: 40px;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.first {
+    font-size: 22px;
+}
+
+.footer_child_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container {
+    width: 60%;
+    justify-content: space-between;
+}
+
+.social_icon {
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.social_icon:hover {
+    height: 50px;
+    width: 50px;
+}
+
+.si_1 {
+    background-image: url("images/facebook.png");
+}
+
+.si_2 {
+    background-image: url("images/google.png");
+}
+
+.si_3 {
+    background-image: url("images/linkedin.png");
+}
+
+.si_4 {
+    background-image: url("images/insta.png");
+}

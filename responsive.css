@@ -1,0 +1,95 @@
+@media screen and (max-width: 425px) {
+  .nav {
+    display: none;
+  }
+  .banner,
+  .overlay {
+    width: 100%;
+    height: 90vh;
+  }
+  .service_btn {
+    padding: 15px 45px;
+  }
+  .services_container {
+    display: grid;
+    grid-template-columns: 1;
+    width: 95vw;
+    margin: 1rem auto;
+  }
+  .banner_text {
+    width: 95%;
+    height: 50%;
+  }
+  .banner_title {
+    font-size: 2.5rem;
+  }
+  .service {
+    width: 95vw;
+    margin: 1rem auto;
+  }
+  .service_title {
+    font-size: 1.7rem;
+  }
+  .service_padd {
+    padding-bottom: 40px;
+  }
+  .highlight_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1rem;
+  }
+  .high_ele {
+    height: 10rem;
+    width: 100%;
+  }
+  .high_title {
+    font-size: 3rem;
+  }
+  .high_desc {
+    font-size: 1.5rem;
+  }
+  .qoute_title {
+    text-align: center;
+  }
+  .portfolio_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+  }
+  .project {
+    width: 100%;
+  }
+  .project_title h1 {
+    text-align: center;
+    margin: auto;
+  }
+  .footer_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .footer_child {
+    width: 100%;
+    margin-bottom: 1rem;
+    justify-content: start;
+  }
+  .footer_child_1 {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .first {
+    font-size: 2rem;
+  }
+  .footer_child ul {
+    margin: 0 0 0 3rem;
+  }
+  .footer_child_4 {
+    justify-content: center;
+    height: 5rem;
+  }
+  .footer {
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,10 +1,18 @@
-@media screen and (max-width: 425px) {
-  .nav {
+@media screen and (max-width: 768px) {
+  .nav-item {
     display: none;
+  }
+  .nav button {
+    display: block;
+    position: relative;
+    float: right;
+    color: #fff;
+    margin-left: 30vw;
+    width: 50px;
   }
   .banner,
   .overlay {
-    width: 100%;
+    width: 100vw;
     height: 90vh;
   }
   .service_btn {
@@ -91,5 +99,53 @@
   .footer {
     padding: 0;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+  .nav .menu {
+    display: block;
+    float: right;
+    color: #fff;
+  }
+  .banner,
+  .overlay {
+    width: 100vw;
+    height: 90vh;
+  }
+  .service_btn {
+    padding: 10px 25px;
+    padding-top: 10px;
+  }
+  .services_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 95vw;
+    grid-gap: 1rem;
+  }
+  .service {
+    width: 45vw;
+  }
+  .banner_text {
+    width: 90%;
+    height: 50%;
+  }
+  .service_title {
+    font-size: 1.5rem;
+  }
+  .service_desc {
+    margin-bottom: 15px;
+  }
+  .high_desc {
+    font-size: 0.5rem;
+  }
+  .high_title {
+    font-size: 2.9rem;
+  }
+  .high_desc {
+    font-size: 1rem;
   }
 }

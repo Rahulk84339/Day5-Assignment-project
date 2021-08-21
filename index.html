@@ -7,7 +7,11 @@
     <title>Techstack</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -56,7 +60,7 @@
     <div class="services">
       <h1 class="underline">What We Do?</h1>
       <div class="container services_container">
-        <div class="service">
+        <div class="service" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
           <div class="service_img">
             <img
               src="https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -79,7 +83,7 @@
           </div>
         </div>
 
-        <div class="service">
+        <div class="service" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
           <div class="service_img">
             <img
               src="https://images.pexels.com/photos/265658/pexels-photo-265658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -102,7 +106,7 @@
           </div>
         </div>
 
-        <div class="service">
+        <div class="service" data-aos="fade-right" data-aos-duration="700" data-aos-offset="300">
           <div class="service_img">
             <img
               src="https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -124,7 +128,7 @@
           </div>
         </div>
 
-        <div class="service">
+        <div class="service" data-aos="fade-left" data-aos-duration="700" data-aos-offset="300">
           <div class="service_img">
             <img
               src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -289,5 +293,10 @@
     </div>
 
     <script src="index.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
